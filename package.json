@@ -7,6 +7,16 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "url": "https://github.com/diez3d/diezdev-demo-lib-coursefh",
+    "type": "git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "components lib",
+    "diezdev"
+  ],
   "engines": {
     "node": ">=10"
   },
