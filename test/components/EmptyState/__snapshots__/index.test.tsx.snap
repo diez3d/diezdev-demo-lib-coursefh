@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyState debe mostrar text como prop 1`] = `
+<div
+  className="emptyState undefined"
+>
+  <span
+    className="emptyState__text"
+  >
+    mi mock text prop
+  </span>
+</div>
+`;
