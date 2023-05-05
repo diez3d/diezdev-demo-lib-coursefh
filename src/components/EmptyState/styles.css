@@ -1,0 +1,16 @@
+
+
+.emptyState {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    min-height: 75%;
+    padding-bottom: 30%;
+    background-color: grey;
+}
+.emptyState__text {
+  display: block;
+  margin-top: 5%;
+  text-align: center;
+  font-weight: 600;
+}
