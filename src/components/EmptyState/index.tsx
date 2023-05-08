@@ -4,7 +4,7 @@ import { FC } from 'react'
 import './styles.css'
 
 
-interface EmptyStateProps {
+interface EmptyProps {
   classCustom?: string
   text?: string
   image?: {
@@ -13,7 +13,7 @@ interface EmptyStateProps {
   }
 }
 
-export const EmptyState: FC<EmptyStateProps> = ({ classCustom, text, image }) => {
+export const EmptyState: FC<EmptyProps> = ({ classCustom, text, image }) => {
   return (
     <div className={`emptyState ${classCustom}`}>
       {image && (
